@@ -1,18 +1,20 @@
 # candlestick-pattern-detector
 
-### ỨNG DỤNG PHƯƠNG PHÁP PHÂN TÍCH KỸ THUẬT ĐỒ THỊ NẾN NHẬT BẢN VÀO DỰ ĐOÁN BIẾN ĐỘNG GIÁ CỔ PHIẾU CỦA CÁC CÔNG TY S&P500.
+### Ứng dụng phương pháp Phân tích kỹ thuật Đồ thị nến Nhật Bản vào dự đoán biến động giá cổ phiếu của các Công ty S&P500.
+
+**_License: This is a personal project of Tung Pham in order to serve as the midterm project for the Programming Package for Finance 1 course taken at the University of Economics and Law (VNU-HCM)_** 
 
 **1. Thông tin chung**
 
-Tên đề tài: Ứng dụng phương pháp phân tích kỹ thuật Đồ thị nến Nhật Bản vào dự đoán biến động giá cổ phiếu của các Công ty S&P500.
+**Tên đề tài:** Ứng dụng phương pháp phân tích kỹ thuật Đồ thị nến Nhật Bản vào dự đoán biến động giá cổ phiếu của các Công ty S&P500.
 
-Ngôn ngữ lập trình: Python
+**Ngôn ngữ lập trình:** Python
 
-Nền tảng lập trình: Pycharm
+**Nền tảng lập trình:** Pycharm
 
-Các package (gói) được sử dụng: TA-Lib, flask, yfinance, pandas, datetime, csv, os
+**Các package (gói) được sử dụng:** TA-Lib, flask, yfinance, pandas, datetime, csv, os
 
-Các file nằm trong thư mục:
+**Các file nằm trong thư mục:**
   + app.py (file chính: chứa chương trình và thuật toán)
   + patterns.py (file dictionary hỗ trợ: liệt kê các mẫu hình đồ thị nến)
   + datasets (file folder: chứa dữ liệu tự động tải về thông số chứng khoán khi chạy chương trình, đã được cập nhật đến ngày gần nhất (28/11))
